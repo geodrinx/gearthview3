@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>I miei luoghi</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Z=49.77</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html>lat  long  H<br><br>41.6744240,12.4574597,49.77<br><br><a href="https://map.what3words.com/41.6744240,12.4574597">w3w</a><br><table border=1 style="border-collapse:collapse; border-color:#000000;"cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#FF0000"><b>CODE</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><img alt="" src="http://qrcode.kaywa.com/img.php?s=8&amp;d=41.6744240,12.4574597,49.77" /></html>]]></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>12.4574597,41.674424,49.77</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Misurazione percorso</name>
+			<styleUrl>#inline3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					12.45745922005578,41.67442896329929,5.604796246213623e-007 12.45752496159964,41.67448283629143,5.689863131695411 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Misurazione poligono</name>
+			<styleUrl>#inline4</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							12.4574756756814,41.67449222007284,5.721291313082713 12.45752786074479,41.6745247024309,5.429360779552892 12.45758584135548,41.67447778231104,5.359834154546691 12.45753553529231,41.6744424000311,5.830327903088365 12.4574756756814,41.67449222007284,5.721291313082713 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

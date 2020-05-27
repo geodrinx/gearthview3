@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+    	 <name>QGisView</name>
+    	 <Snippet maxLines="0"></Snippet>
+	     <open>1</open>
+	<Style id="sh_style">
+		<PolyStyle>
+			<color>7fff8080</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_style">
+		<PolyStyle>
+			<color>00ff8080</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	     <Style id="sh_ylw-pushpin">
+	     	<IconStyle>
+	     		<scale>1.2</scale>
+	     	</IconStyle>
+	     	<PolyStyle>
+	     		<fill>0</fill>
+	     	</PolyStyle>
+	     </Style>
+	     <Style id="sn_ylw-pushpin">
+	     	<PolyStyle>
+	     		<fill>0</fill>
+	     	</PolyStyle>
+	     </Style>
+	     <StyleMap id="msn_ylw-pushpin">
+	     	<Pair>
+	     		<key>normal</key>
+	     		<styleUrl>#sn_ylw-pushpin</styleUrl>
+	     	</Pair>
+	     	<Pair>
+	     		<key>highlight</key>
+	     		<styleUrl>#sh_ylw-pushpin</styleUrl>
+	     	</Pair>
+	     </StyleMap>
+    <StyleMap id="msn_style">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#sn_style</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#sh_style</styleUrl>
+        </Pair>
+    </StyleMap>
+	     	<Style id="hl">
+	     		<IconStyle>
+	     			<scale>0.7</scale>
+	     			<Icon>
+	     				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+	     			</Icon>
+	     		</IconStyle>
+	     		<LabelStyle>
+	     			<scale>0.7</scale>
+	     		</LabelStyle>
+	     		<ListStyle>
+	     		</ListStyle>
+	     	</Style>
+	     	<Style id="default">
+	     		<IconStyle>
+	     			<scale>0.7</scale>
+	     			<Icon>
+	     				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+	     			</Icon>
+	     		</IconStyle>
+	     		<LabelStyle>
+	     			<scale>0.7</scale>
+	     		</LabelStyle>
+	     		<ListStyle>
+	     		</ListStyle>
+	     	</Style>
+	     	<StyleMap id="default0">
+	     		<Pair>
+	     			<key>normal</key>
+	     			<styleUrl>#default</styleUrl>
+	     		</Pair>
+	     		<Pair>
+	     			<key>highlight</key>
+	     			<styleUrl>#hl</styleUrl>
+	     		</Pair>
+	     	</StyleMap>
+      <Folder>
+    		<open>1</open>
+    		<NetworkLink>
+    		   <name>QGIS_link</name>
+    		   <visibility>1</visibility>
+    		   <open>1</open>
+    		   <Link>
+    		      <href>QGIS_link.kmz</href>
+    		   </Link>
+    		</NetworkLink>
+    		<LookAt>
+    		   <longitude>12.502219</longitude>
+    		   <latitude>41.952293</latitude>
+    		   <altitude>0</altitude>
+    		   <heading>-0.000000</heading>
+    		   <tilt>0</tilt>
+    		   <range>31765.931393</range>
+    		   <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+    		</LookAt>
+      <GroundOverlay>
+    	 <name>QGisView</name>
+    	<Icon>
+    	<href>QGisView_12.290447_41.878655_2020-05-27_11_24_25_691146.png</href>
+    		<viewBoundScale>1.0</viewBoundScale>
+    	</Icon>
+    	<gx:LatLonQuad>
+    		<coordinates>
+12.2904465,41.8786552,0 12.7139923,41.8786552,0 12.7139923,42.0259315,0 12.2904465,42.0259315,0
+    		</coordinates>
+    	</gx:LatLonQuad>
+    </GroundOverlay>
+    <Folder>
+			<name>OLS_Aquino_15_35_adj</name>
+	<Placemark>
+		<name>1</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>63</td></tr>
+<tr><td>text</td><td>OLS_circle_003</td></tr>
+<tr><td>PolIndex</td><td>1,4,5</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">63</SimpleData>
+				<SimpleData name="text">OLS_circle_003</SimpleData>
+				<SimpleData name="PolIndex">1,4,5</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7548563090944,41.5161137943238,151.99829864502 13.7573230155424,41.5138778366255,151.998268127441 13.7601250297825,41.5107939930238,151.998245239258 13.7619876363832,41.5082679631821,151.998237609863 13.7247118267446,41.4891130907462,151.999881744385 13.7175776322693,41.496956395609,151.999938964844 13.7548563090944,41.5161137943238,151.99829864502</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>2</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>64</td></tr>
+<tr><td>text</td><td>OLS_circle_004</td></tr>
+<tr><td>PolIndex</td><td>1,2,5</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">64</SimpleData>
+				<SimpleData name="text">OLS_circle_004</SimpleData>
+				<SimpleData name="PolIndex">1,2,5</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7212523539302,41.487334187173,152.000057220459 13.6840000685027,41.4681658067326,152.00170135498 13.6815325531246,41.4704002346609,152.001731872559 13.6787285504386,41.4734821846587,152.001754760742 13.6768637336513,41.4760068556547,152.00175857544 13.7141179337291,41.4951772780242,152.000114440918 13.7212523539302,41.487334187173,152.000057220459</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>3</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>65</td></tr>
+<tr><td>text</td><td>OLS_transition_001</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">65</SimpleData>
+				<SimpleData name="text">OLS_transition_001</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7232291698881,41.4883507154761,107 13.7160948792255,41.4961939285577,107 13.7175776322148,41.4969563956689,151.999938964844 13.7247118264725,41.4891130910454,151.999881744385 13.7232291698881,41.4883507154761,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>4</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>66</td></tr>
+<tr><td>text</td><td>OLS_transition_002</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">66</SimpleData>
+				<SimpleData name="text">OLS_transition_002</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7212523539846,41.4873341871132,152.000057220459 13.7141179335657,41.4951772782037,152.000110626221 13.7156006378095,41.495939769712,107 13.7227349606368,41.4880965864589,107 13.7212523539846,41.4873341871132,152.000057220459</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>5</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>67</td></tr>
+<tr><td>text</td><td>OLS_transition_003</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">67</SimpleData>
+				<SimpleData name="text">OLS_transition_003</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7232291699023,41.4883507154604,107 13.7232291694144,41.4883507158753,107 13.7247118260742,41.4891130914834,151.999881744385 13.7249189719369,41.4864926570962,151.999969482422 13.7232291699023,41.4883507154604,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>6</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>68</td></tr>
+<tr><td>text</td><td>OLS_transition_004</td></tr>
+<tr><td>PolIndex</td><td>1,2,3</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">68</SimpleData>
+				<SimpleData name="text">OLS_transition_004</SimpleData>
+				<SimpleData name="PolIndex">1,2,3</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7160948794347,41.4961939283278,107 13.7144045730308,41.4980518538501,151.999969482422 13.7175776322177,41.4969563956657,151.999938964844 13.717577632424,41.4969563954389,151.999938964844 13.7160948794347,41.4961939283278,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>7</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>69</td></tr>
+<tr><td>text</td><td>OLS_transition_005</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">69</SimpleData>
+				<SimpleData name="text">OLS_transition_005</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7212523539817,41.4873341871163,152.000057220459 13.7212523533629,41.4873341877968,152.000057220459 13.7227349600151,41.4880965871424,107 13.7244247701856,41.4862385352753,152.000095367432 13.7212523539817,41.4873341871163,152.000057220459</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>8</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>70</td></tr>
+<tr><td>text</td><td>OLS_transition_006</td></tr>
+<tr><td>PolIndex</td><td>1,2,3</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">70</SimpleData>
+				<SimpleData name="text">OLS_transition_006</SimpleData>
+				<SimpleData name="PolIndex">1,2,3</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7141179343996,41.4951772772871,152.000110626221 13.713910324067,41.4977976877974,151.999973297119 13.715600637818,41.4959397697026,107 13.7156006386434,41.4959397687954,107 13.7141179343996,41.4951772772871,152.000110626221</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>9</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>71</td></tr>
+<tr><td>text</td><td>OLS_runway</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">71</SimpleData>
+				<SimpleData name="text">OLS_runway</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7227349605823,41.4880965865187,107 13.7156006379728,41.4959397695325,107 13.7160948792423,41.4961939284785,107 13.7232291701225,41.4883507151575,107 13.7227349605823,41.4880965865187,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>10</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>72</td></tr>
+<tr><td>text</td><td>OLS_circle_001a</td></tr>
+<tr><td>PolIndex</td><td>1,17,18</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">72</SimpleData>
+				<SimpleData name="text">OLS_circle_001a</SimpleData>
+				<SimpleData name="PolIndex">1,17,18</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6924221536551,41.5222021731432,152.00020980835 13.6938794818489,41.5229513520249,152.000144958496 13.6980077896319,41.5246532186629,151.999973297119 13.7023383747678,41.526042641813,151.999801635742 13.706829494945,41.5271062103818,151.999629974365 13.7114378237121,41.5278336735899,151.999462127685 13.7161189199286,41.5282180111234,151.9993019104 13.7208276265092,41.5282555171062,151.999145507813 13.72551850586,41.5279458359667,151.999000549316 13.7301463298949,41.5272919381427,151.998863220215 13.7346664540052,41.5263001450823,151.998737335205 13.7390352821441,41.5249800224753,151.998622894287 13.7432106834197,41.523344291097,151.998519897461 13.7471524105929,41.5214087426304,151.998432159424 13.7508224638846,41.5191920356318,151.998363494873 13.7541854865696,41.5167155452921,151.998306274414 13.7548563090944,41.5161137943238,151.99829864502 13.7175776322693,41.496956395609,151.999938964844 13.7144045729137,41.4980518540396,151.999969482422 13.6924221536551,41.5222021731432,152.00020980835</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>11</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>73</td></tr>
+<tr><td>text</td><td>OLS_circle_001b</td></tr>
+<tr><td>PolIndex</td><td>1,5,6</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">73</SimpleData>
+				<SimpleData name="text">OLS_circle_001b</SimpleData>
+				<SimpleData name="PolIndex">1,5,6</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6868808717763,41.5189330605243,152.000484466553 13.6904875894724,41.5212077167902,152.000316619873 13.6919276618212,41.521948073229,152.00025177002 13.7139103241286,41.4977976879123,151.999969482422 13.7141179337291,41.4951772780242,152.000114440918 13.6768637336513,41.4760068556547,152.00175857544 13.6763515188225,41.4767087271668,152.001762390137 13.6745027374843,41.479962763579,152.001750946045 13.6730868127621,41.4833373886059,152.001724243164 13.6721174500614,41.4868001160641,152.001678466797 13.6716040448836,41.4903176143707,152.001617431641 13.6715516258705,41.4938560100543,152.001541137695 13.6719607613468,41.4973812274538,152.001449584961 13.6728275838197,41.5008593002085,152.001346588135 13.6741438216839,41.5042567413033,152.00122833252 13.675896866853,41.5075408118788,152.001098632813 13.6780698800861,41.5106798601313,152.000957489014 13.6806419827053,41.5136436380501,152.00080871582 13.6835884305305,41.5164035742529,152.000648498535 13.6868808717763,41.5189330605243,152.000484466553</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>12</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>74</td></tr>
+<tr><td>text</td><td>OLS_circle_001c</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">74</SimpleData>
+				<SimpleData name="text">OLS_circle_001c</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6919326053044,41.5219506158545,152.00025177002 13.692427097177,41.5222047157473,152.00020980835 13.7144095154211,41.4980543956901,151.999969482422 13.7139152665973,41.4978002295841,151.999969482422 13.6919326053044,41.5219506158545,152.00025177002</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>13</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>75</td></tr>
+<tr><td>text</td><td>OLS_circle_002a</td></tr>
+<tr><td>PolIndex</td><td>1,17,18</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">75</SimpleData>
+				<SimpleData name="text">OLS_circle_002a</SimpleData>
+				<SimpleData name="PolIndex">1,17,18</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7619876363832,41.5082679631821,151.998237609863 13.7624991563656,41.5075657427761,151.998237609863 13.7643443244574,41.5043103127675,151.998249053955 13.7657559655779,41.5009345776355,151.998275756836 13.7667205563796,41.4974710700412,151.998321533203 13.7672288761646,41.4939531610303,151.998382568359 13.7672760994532,41.4904147240594,151.998458862305 13.7668618466235,41.4868898490655,151.998550415039 13.7659901794244,41.4834124692933,151.998653411865 13.7646695703317,41.480016060107,151.99877166748 13.7629127847317,41.4767333251169,151.998901367188 13.7607368060704,41.4735958511958,151.999042510986 13.7581626346818,41.4706338370038,151.99919128418 13.7552150900257,41.4678757805469,151.999351501465 13.7519225683215,41.4653482234779,151.999515533447 13.7483167872281,41.4630754698245,151.999683380127 13.746877403274,41.4623358226383,151.99974822998 13.724918972157,41.4864926567932,151.999969482422 13.7247118267446,41.4891130907462,151.999881744385 13.7619876363832,41.5082679631821,151.998237609863</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>14</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>76</td></tr>
+<tr><td>text</td><td>OLS_circle_002b</td></tr>
+<tr><td>PolIndex</td><td>1,17,18</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">76</SimpleData>
+				<SimpleData name="text">OLS_circle_002b</SimpleData>
+				<SimpleData name="PolIndex">1,17,18</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7463831504452,41.4620819576775,151.999794006348 13.7449265489359,41.4613334165273,151.999855041504 13.74080102322,41.4596332098463,152.000026702881 13.7364740190793,41.4582452220065,152.000198364258 13.7319871593598,41.4571827985401,152.000370025635 13.7273835914575,41.4564561528862,152.000537872315 13.722707577739,41.4560722748146,152.0006980896 13.7180040877213,41.4560348526428,152.000854492188 13.713318344295,41.4563442459949,152.000999450684 13.7086953905702,41.4569974794983,152.001136779785 13.704179675904,41.4579882753987,152.001262664795 13.6998146344388,41.4593071114514,152.001377105713 13.6956422468178,41.4609412967041,152.001480102539 13.6917026562855,41.4628751152319,152.001567840576 13.6880337703338,41.4650899771844,152.001636505127 13.68467090421,41.4675645735817,152.001693725586 13.6840000685027,41.4681658067326,152.00170135498 13.7212523539302,41.487334187173,152.000057220459 13.7244247701341,41.486238535332,152.000091552734 13.7463831504452,41.4620819576775,151.999794006348</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>15</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>77</td></tr>
+<tr><td>text</td><td>OLS_circle_002c</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">77</SimpleData>
+				<SimpleData name="text">OLS_circle_002c</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7249239141967,41.4864951979971,151.999969482422 13.7468823442608,41.462338362871,151.99974822998 13.7463880914688,41.4620844979702,151.999794006348 13.7244297121352,41.4862410765572,152.000091552734 13.7249239141967,41.4864951979971,151.999969482422</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>16</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>78</td></tr>
+<tr><td>text</td><td>OLS_tocs_60a</td></tr>
+<tr><td>PolIndex</td><td>1,2,3</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">78</SimpleData>
+				<SimpleData name="text">OLS_tocs_60a</SimpleData>
+				<SimpleData name="PolIndex">1,2,3</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7155610988193,41.4959194367149,107 13.7031597174671,41.5069962001356,187 13.7069163172268,41.5089281571968,187 13.7161541884731,41.4962244274182,107 13.7155610988193,41.4959194367149,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>17</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>79</td></tr>
+<tr><td>text</td><td>OLS_tocs_60b</td></tr>
+<tr><td>PolIndex</td><td>1,2,3</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">79</SimpleData>
+				<SimpleData name="text">OLS_tocs_60b</SimpleData>
+				<SimpleData name="PolIndex">1,2,3</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7232884751121,41.4883812102375,107 13.7356828796748,41.4773022422653,187 13.7319272522563,41.4753712139603,187 13.7226954235335,41.4880762559027,107 13.7232884751121,41.4883812102375,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>18</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>82</td></tr>
+<tr><td>text</td><td>OLS_approach60a</td></tr>
+<tr><td>PolIndex</td><td>1,2,3</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">82</SimpleData>
+				<SimpleData name="text">OLS_approach60a</SimpleData>
+				<SimpleData name="PolIndex">1,2,3</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7153634033296,41.4958177727069,107 13.7021711757018,41.5064877698882,187 13.7079049332314,41.5094365464532,187 13.7163518860232,41.4963260905134,107 13.7153634033296,41.4958177727069,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>19</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>83</td></tr>
+<tr><td>text</td><td>OLS_approach60b</td></tr>
+<tr><td>PolIndex</td><td>1,2,3</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">83</SimpleData>
+				<SimpleData name="text">OLS_approach60b</SimpleData>
+				<SimpleData name="PolIndex">1,2,3</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7234861605721,41.4884828611866,107 13.7366712419895,41.4778103856091,187 13.7309389685598,41.4748630266195,187 13.7224977413373,41.4879746039944,107 13.7234861605721,41.4884828611866,107</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>20</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>13</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">13</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6728292929795,41.5553534633793,351.994827270508 13.6728838263053,41.5553759480469,351.994827270508 13.6729024660754,41.5553836325827,351.994827270508 13.6770450608834,41.5569942976176,351.521392822266 13.6770640193024,41.557000802189,351.515014648438 13.6980077912838,41.5246532168488,151.999973353704 13.6938794835008,41.5229513502109,152.000146141669 13.6688145101752,41.5535995169004,351.515365600586 13.6728292929795,41.5553534633793,351.994827270508</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>21</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>14</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,5,7</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">14</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,5,7</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7924000867849,41.5385186808537,351.991287231445 13.7924399279782,41.5384829189786,351.991287231445 13.7924536510631,41.5384705995042,351.991271972656 13.7945545977213,41.5364888509853,351.649078369141 13.7548563088882,41.5161137945507,151.998297832673 13.7541854869821,41.5167155448383,151.998306588619 13.7893320260849,41.5411376343571,351.511688232422 13.7924000867849,41.5385186808537,351.991287231445</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>22</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>8</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">8</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7273082136442,41.5639812339666,351.99284362793 13.7273697937593,41.5639771696721,351.99284362793 13.7273908123763,41.5639757834749,351.99284362793 13.7320270767573,41.5635840370834,351.51921081543 13.7320475311839,41.5635815402866,351.513031005859 13.7255185075112,41.5279458341521,151.998999193427 13.7208276240946,41.5282555158653,151.999146122893 13.7226718892302,41.5642005108583,351.513412475586 13.7273082136442,41.5639812339666,351.99284362793</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>23</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>4</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">4</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.763232396319,41.5561173815056,351.991851806641 13.7632868471141,41.5560960460453,351.991851806641 13.7633053272514,41.5560888053337,351.991851806641 13.7673878918076,41.5543929855718,351.518371582031 13.7674054334944,41.554384826564,351.512145996094 13.7432106834197,41.523344291097,151.998520540656 13.7390352837949,41.5249800206606,151.998621417908 13.7590616700126,41.5576539431042,351.512298583984 13.763232396319,41.5561173815056,351.991851806641</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>24</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>7</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">7</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7366328030878,41.5630216408602,351.992568969727 13.7366935392316,41.563013059682,351.992568969727 13.7367143053057,41.563010125796,351.992568969727 13.7412769294611,41.5622786050192,351.51921081543 13.7412969337066,41.5622746137575,351.512756347656 13.7301463323096,41.5272919393834,151.998861902161 13.7255185075112,41.5279458341521,151.998999193427 13.7320475311839,41.5635815402866,351.513031005859 13.7366328030878,41.5630216408602,351.992568969727</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>25</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>9</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">9</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7179030278957,41.5642490060533,351.9931640625 13.7179649964341,41.5642494974583,351.9931640625 13.7179862181116,41.5642496658865,351.9931640625 13.722651173912,41.5642014928199,351.519653320313 13.7226718892302,41.5642005108583,351.513412475586 13.7208276240946,41.5282555158653,151.999146122893 13.7161189182771,41.5282180129378,151.999301275529 13.7132605547284,41.56412554866,351.513656616211 13.7179030278957,41.5642490060533,351.9931640625</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>26</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>12</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">12</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6812888741707,41.5584504581319,351.994491577148 13.681345945356,41.5584687691663,351.994491577148 13.6813653919888,41.5584750068146,351.994491577148 13.6856987159896,41.5597726379728,351.521026611328 13.6857184113744,41.5597777077362,351.5146484375 13.7023383776267,41.5260426406194,151.999800822421 13.6980077912838,41.5246532168488,151.999973353704 13.6770640193024,41.557000802189,351.515014648438 13.6812888741707,41.5584504581319,351.994491577148</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>27</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>6</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">6</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7457866041526,41.5613795596133,351.992309570313 13.7458461481762,41.561366491696,351.992309570313 13.7458667004578,41.561361982487,351.992309570313 13.7503113639307,41.5602978102644,351.518951416016 13.750330728275,41.5602923766671,351.512588500977 13.7346664540052,41.5263001450823,151.998735571513 13.7301463323096,41.5272919393834,151.998861902161 13.7412969337066,41.5622746137575,351.512756347656 13.7457866041526,41.5613795596133,351.992309570313</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>28</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>10</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">10</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6992149043553,41.5627054319647,351.993804931641 13.6992756178203,41.5627150165051,351.993804931641 13.699296353915,41.5627182898453,351.993804931641 13.7038839061184,41.5633552966271,351.520233154297 13.7039045148543,41.5633573741691,351.51399230957 13.7114378249193,41.5278336742104,151.999463157321 13.706829494945,41.5271062103818,151.999630209233 13.6946941400531,41.5619034128196,351.51432800293 13.6992149043553,41.5627054319647,351.993804931641</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>29</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>15</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">15</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7085084375199,41.5638223651647,351.993469238281 13.7085700113858,41.563827421153,351.993469238281 13.708591014886,41.5638291465522,351.993469238281 13.7132398133546,41.5641249922269,351.519958496094 13.7132605547284,41.56412554866,351.513656616211 13.7161189182771,41.5282180129378,151.999301275529 13.7114378249193,41.5278336742104,151.999463157321 13.7039045148543,41.5633573741691,351.51399230957 13.7085084375199,41.5638223651647,351.993469238281</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>30</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>1</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">1</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7860092166765,41.5437065348623,351.991394042969 13.7860535977668,41.5436738412172,351.991394042969 13.7860691424636,41.5436623898739,351.991394042969 13.7893184492216,41.5411492298898,351.518005371094 13.7893320260849,41.5411376343571,351.511688232422 13.7541854869821,41.5167155448383,151.998306588619 13.7508224618824,41.5191920339378,151.998362364364 13.7826139370654,41.5460866070164,351.511810302734 13.7860092166765,41.5437065348623,351.991394042969</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>31</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>2</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">2</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7789718425391,41.5483980109346,351.991500854492 13.7790199144742,41.5483689695187,351.991500854492 13.7790364560625,41.5483589743031,351.991500854492 13.7825988914733,41.5460971566559,351.517974853516 13.7826139370654,41.5460866070164,351.511810302734 13.7508224618824,41.5191920339378,151.998362364364 13.7471524097677,41.5214087435378,151.998433911358 13.7752815244988,41.5505166000643,351.511962890625 13.7789718425391,41.5483980109346,351.991500854492</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>32</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>3</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">3</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7713545443016,41.5525485946783,351.991683959961 13.7714065164641,41.5525230689567,351.991683959961 13.7714245987617,41.5525141889708,351.991683959961 13.775265149784,41.5505259968104,351.518096923828 13.7752815244988,41.5505166000643,351.511962890625 13.7471524097677,41.5214087435378,151.998433911358 13.7432106834197,41.523344291097,151.998520540656 13.7674054334944,41.554384826564,351.512145996094 13.7713545443016,41.5525485946783,351.991683959961</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>33</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>5</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">5</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7546815742418,41.5590707882894,351.992065429688 13.7547392047398,41.5590533704364,351.992065429688 13.7547591912727,41.5590473293012,351.992065429688 13.7590431252954,41.5576607777427,351.518463134766 13.7590616700126,41.5576539431042,351.512298583984 13.7390352837949,41.5249800206606,151.998621417908 13.7346664540052,41.5263001450823,151.998735571513 13.750330728275,41.5602923766671,351.512588500977 13.7546815742418,41.5590707882894,351.992065429688</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>34</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>11</td></tr>
+<tr><td>text</td><td>OLS_conica_001</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">11</SimpleData>
+				<SimpleData name="text">OLS_conica_001</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6901125170703,41.5609090326475,351.994140625 13.6901716103638,41.5609230275973,351.994140625 13.6901917318768,41.5609277931943,351.994140625 13.6946738910177,41.5618998187187,351.520950317383 13.6946941400531,41.5619034128196,351.51432800293 13.706829494945,41.5271062103818,151.999630209233 13.7023383776267,41.5260426406194,151.999800822421 13.6857184113744,41.5597777077362,351.5146484375 13.6901125170703,41.5609090326475,351.994140625</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>35</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>28</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">28</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8107418635032,41.5134586460849,351.991256713867 13.810760464483,41.5134140945635,351.991256713867 13.8107667970608,41.5133989215779,351.991256713867 13.8120537968286,41.5100312517342,351.518020629883 13.8120585661706,41.510015990404,351.511657714844 13.7657559655779,41.5009345776355,151.998277517618 13.7643443248697,41.5043103123137,151.998249565717 13.8092429210581,41.5167604573912,351.51155090332 13.8107418635032,41.5134586460849,351.991256713867</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>36</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>29</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">29</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8074832842681,41.5200895217177,351.991195678711 13.8075076262723,41.5200465146077,351.991195678711 13.8075159267098,41.520031851383,351.991195678711 13.8092361869446,41.516775299615,351.517822265625 13.8092429210581,41.5167604573912,351.51155090332 13.7643443248697,41.5043103123137,151.998249565717 13.762499153951,41.507565741536,151.998238471569 13.8055606260079,41.5232649048187,351.511566162109 13.8074832842681,41.5200895217177,351.991195678711</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>37</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>23</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">23</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8134988266947,41.4785163418784,351.991912841797 13.8134872900221,41.4784704458744,351.991912841797 13.8134833810613,41.4784548946794,351.991912841797 13.8125068236237,41.4750288350968,351.51872253418 13.8125014411691,41.4750136292042,351.512344360352 13.7659901810733,41.4834124674782,151.998655225267 13.7668618442096,41.4868898478255,151.998550147284 13.8142475130138,41.4819593421481,351.512145996094 13.8134988266947,41.4785163418784,351.991912841797</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>38</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>19</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">19</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7995542628163,41.4524424153096,351.992950439453 13.7995200517673,41.4524030709601,351.992950439453 13.7995084020464,41.4523896736838,351.992950439453 13.7968647295676,41.4495053078782,351.519927978516 13.7968519762346,41.4494927535992,351.513442993164 13.7581626346818,41.4706338370038,151.999193122552 13.7607368060704,41.4735958511958,151.999043504067 13.8019962195257,41.4554079099818,351.513137817383 13.7995542628163,41.4524424153096,351.992950439453</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>39</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>22</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">22</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8113077944976,41.4716422584942,351.992141723633 13.8112903762156,41.4715975363214,351.992156982422 13.8112845137021,41.4715824935226,351.992156982422 13.8098663487852,41.4682447566011,351.518737792969 13.8098590041345,41.4682300065241,351.51252746582 13.7646695703317,41.480016060107,151.998773253989 13.7659901810733,41.4834124674782,151.998655225267 13.8125014411691,41.4750136292042,351.512344360352 13.8113077944976,41.4716422584942,351.992141723633</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>40</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>24</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">24</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8147837342436,41.4855187597435,351.991729736328 13.8147782281082,41.4854721749394,351.991729736328 13.8147763480783,41.4854563292617,351.991729736328 13.8142508925775,41.4819748609757,351.5185546875 13.8142475130138,41.4819593421481,351.512145996094 13.7668618442096,41.4868898478255,151.998550147284 13.7672760978041,41.4904147258745,151.998459032271 13.8150801466762,41.4890002992608,351.511978149414 13.8147837342436,41.4855187597435,351.991729736328</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>41</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>27</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">27</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8131194233178,41.5066197071857,351.991287231445 13.8131321483907,41.5065739102358,351.991287231445 13.8131364978873,41.5065582528068,351.991287231445 13.8139779153327,41.5031120587997,351.518096923828 13.8139806699064,41.5030965122055,351.511703491211 13.7667205579693,41.4974710721887,151.998322057771 13.7657559655779,41.5009345776355,151.998277517618 13.8120585661706,41.510015990404,351.511657714844 13.8131194233178,41.5066197071857,351.991287231445</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>42</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>21</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">21</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8082320577533,41.4649628217038,351.992385864258 13.8082088910742,41.46491959596,351.992385864258 13.8082011093545,41.4649050787709,351.992385864258 13.8063551580127,41.4616878924903,351.519119262695 13.8063459225083,41.4616737461976,351.512878417969 13.7629127806694,41.476733325692,151.998903097119 13.7646695703317,41.480016060107,151.998773253989 13.8098590041345,41.4682300065241,351.51252746582 13.8082320577533,41.4649628217038,351.992385864258</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>43</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>25</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">25</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8151498663108,41.4925820830583,351.991561889648 13.815150458308,41.4925353220086,351.991561889648 13.8151506611178,41.4925194273368,351.991561889648 13.8150814810615,41.4890159819894,351.5185546875 13.8150801466762,41.4890002992608,351.511978149414 13.7672760978041,41.4904147258745,151.998459032271 13.7672288761646,41.4939531610303,151.998382757767 13.8149910101791,41.4960687156388,351.511825561523 13.8151498663108,41.4925820830583,351.991561889648</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>44</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>30</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,7,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">30</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,7,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8033749256729,41.5264481589801,351.9912109375 13.8034047213551,41.5264072253619,351.9912109375 13.8034148466604,41.5263933158592,351.9912109375 13.8055519782535,41.5232791772957,351.517974853516 13.8055606260079,41.5232649048187,351.511566162109 13.762499153951,41.507565741536,151.998238471569 13.7619876339686,41.508267961942,151.998239799752 13.801683839047,41.5286408322176,351.642807006836 13.8033749256729,41.5264481589801,351.9912109375</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>45</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>16</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">16</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7809058051885,41.4366327757608,351.993896484375 13.7808581681949,41.436602759051,351.993896484375 13.7808422348999,41.4365927184707,351.993896484375 13.7772006969722,41.4344091103137,351.520767211914 13.7771836008708,41.4343998499248,351.514404296875 13.748316788877,41.4630754680096,151.999682478927 13.7519225699704,41.465348221663,151.999514155818 13.7843855975041,41.4389380147217,351.514053344727 13.7809058051885,41.4366327757608,351.993896484375</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>46</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>17</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">17</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7877999535539,41.44143484009,351.993576049805 13.7877560504589,41.4414011530722,351.993576049805 13.787741059551,41.4413896503807,351.993576049805 13.7844013937938,41.4389484789298,351.520599365234 13.7843855975041,41.4389380147217,351.514053344727 13.7519225699704,41.465348221663,151.999514155818 13.7552150889801,41.4678757826719,151.999350511702 13.7909628337175,41.4439851497268,351.513702392578 13.7877999535539,41.44143484009,351.993576049805</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>47</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>18</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">18</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7940356833015,41.4467212674843,351.993270874023 13.7939967359351,41.4466848405692,351.993270874023 13.7939836628481,41.4466726162163,351.993286132813 13.7909771814791,41.4439967149356,351.520111083984 13.7909628337175,41.4439851497268,351.513702392578 13.7552150889801,41.4678757826719,151.999350511702 13.7581626346818,41.4706338370038,151.999193122552 13.7968519762346,41.4494927535992,351.513442993164 13.7940356833015,41.4467212674843,351.993270874023</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>48</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>20</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">20</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8043016326446,41.4585424815871,351.992660522461 13.8042727457454,41.4585008665981,351.992660522461 13.8042629211762,41.4584867153048,351.992660522461 13.8020072678305,41.4554213276671,351.519668579102 13.8019962195257,41.4554079099818,351.513137817383 13.7607368060704,41.4735958511958,151.999043504067 13.7629127806694,41.476733325692,151.998903097119 13.8063459225083,41.4616737461976,351.512878417969 13.8043016326446,41.4585424815871,351.992660522461</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>49</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>26</td></tr>
+<tr><td>text</td><td>OLS_conica_002</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">26</SimpleData>
+				<SimpleData name="text">OLS_conica_002</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.8145934287221,41.4996382917665,351.991424560547 13.814600101711,41.4995918981883,351.991424560547 13.8146023657695,41.4995761506724,351.991424560547 13.8149902976924,41.4960844074183,351.518325805664 13.8149910101791,41.4960687156388,351.511825561523 13.7672288761646,41.4939531610303,151.998382757767 13.7667205579693,41.4974710721887,151.998322057771 13.8139806699064,41.5030965122055,351.511703491211 13.8145934287221,41.4996382917665,351.991424560547</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>50</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>44</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">44</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6314225748896,41.4641338457635,351.998229980469 13.6313982479801,41.464176609108,351.998229980469 13.6313901974626,41.4641907631095,351.998229980469 13.6296622272138,41.4674450392346,351.52490234375 13.6296553842823,41.4674600133176,351.518524169922 13.6745027366586,41.4799627644859,152.00175043405 13.6763515188225,41.4767087271668,152.001761528431 13.633352102545,41.4609611430329,351.5185546875 13.6314225748896,41.4641338457635,351.998229980469</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>51</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>43</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">43</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6281484732624,41.4707591143801,351.998168945313 13.6281296038837,41.4708040094733,351.998168945313 13.6281231889477,41.4708192751032,351.998168945313 13.6268275394784,41.4741846666267,351.524993896484 13.6268226815425,41.4742000582823,351.518493652344 13.6730868151741,41.4833373898478,152.001722481917 13.6745027366586,41.4799627644859,152.00175043405 13.6296553842823,41.4674600133176,351.518524169922 13.6281484732624,41.4707591143801,351.998168945313</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>52</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>38</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">38</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6252920986324,41.505697318187,351.997512817383 13.6253035087647,41.5057432388562,351.997512817383 13.6253073743425,41.5057587963369,351.997512817383 13.6262745378826,41.5091864365005,351.524261474609 13.626279878349,41.509201629022,351.517715454102 13.6728275845804,41.5008593032642,152.001344773569 13.6719607589343,41.4973812262119,152.001449851552 13.624553142313,41.5022531236337,351.517944335938 13.6252920986324,41.505697318187,351.997512817383</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>53</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>34</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">34</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.639178531875,41.5317924956087,351.996475219727 13.6392122961392,41.5318314296755,351.996475219727 13.6392238028987,41.531844699122,351.996475219727 13.6418641178089,41.5347329556032,351.523071289063 13.641876684869,41.5347453471759,351.516677856445 13.6806419843574,41.5136436362362,152.000806877331 13.6780698800861,41.5106798601313,152.000956495409 13.6367407548073,41.5288231333774,351.516937255859 13.639178531875,41.5317924956087,351.996475219727</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>54</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>37</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">37</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6274645662976,41.5125747426376,351.997283935547 13.6274819235188,41.5126196269037,351.997268676758 13.6274878404059,41.5126349188478,351.997268676758 13.628897530631,41.5159747053922,351.523956298828 13.6289048084287,41.5159893921853,351.517486572266 13.6741438240967,41.5042567425452,152.001226744964 13.6728275845804,41.5008593032642,152.001344773569 13.626279878349,41.509201629022,351.517715454102 13.6274645662976,41.5125747426376,351.997283935547</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>55</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>39</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">39</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6240271982118,41.4986927685957,351.997695922852 13.624032577335,41.4987394306837,351.997695922852 13.6240344049175,41.4987552708063,351.997695922852 13.6245498138705,41.5022375762213,351.524230957031 13.624553142313,41.5022531236337,351.517944335938 13.6719607589343,41.4973812262119,152.001449851552 13.6715516258705,41.4938560100543,152.001540966914 13.6237409759496,41.4952108169755,351.518127441406 13.6240271982118,41.4986927685957,351.997695922852</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>56</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>42</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">42</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6257526413551,41.4775945729125,351.998138427734 13.6257397776515,41.477640409503,351.998138427734 13.6257354401882,41.4776558671434,351.998138427734 13.6248843518785,41.481100768027,351.524993896484 13.6248815332216,41.481116425161,351.518402099609 13.6721174492356,41.486800116971,152.001677941764 13.6730868151741,41.4833373898478,152.001722481917 13.6268226815425,41.4742000582823,351.518493652344 13.6257526413551,41.4775945729125,351.998138427734</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>57</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>36</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">36</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6305240811637,41.5192591608247,351.997039794922 13.6305470936981,41.5193023347546,351.997039794922 13.630554887881,41.5193169459438,351.997039794922 13.6323937894508,41.52253692585,351.523468017578 13.6324029325606,41.5225509841138,351.517227172852 13.6758968685051,41.5075408100649,152.001096902066 13.6741438240967,41.5042567425452,152.001226744964 13.6289048084287,41.5159893921853,351.517486572266 13.6305240811637,41.5192591608247,351.997039794922</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>58</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>40</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">40</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6236817934216,41.4916288616855,351.997863769531 13.6236810611341,41.4916756789312,351.997863769531 13.6236808141335,41.4916915159401,351.997863769531 13.6237396868936,41.4951950784199,351.524856567383 13.6237409759496,41.4952108169755,351.518127441406 13.6715516258705,41.4938560100543,152.001540966914 13.6716040448836,41.4903176143707,152.001617241651 13.6238508980379,41.4881425589114,351.51823425293 13.6236817934216,41.4916288616855,351.997863769531</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>59</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>45</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>1,5,7</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">45</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">1,5,7</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.635543895293,41.4577810736248,351.99821472168 13.6355140278234,41.4578219694003,351.99821472168 13.6355041029176,41.457835562193,351.99821472168 13.6333608659411,41.4609467265879,351.525024414063 13.633352102545,41.4609611430329,351.5185546875 13.6763515188225,41.4767087271668,152.001761528431 13.6768637336513,41.4760068556547,152.001760200364 13.6372387857212,41.4555907721672,351.649749755859 13.635543895293,41.4577810736248,351.99821472168</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>60</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>31</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">31</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6578196815885,41.547624549303,351.995529174805 13.6578670228379,41.5476544143067,351.995529174805 13.6578833482883,41.5476647119252,351.995529174805 13.6615272249378,41.5498520417989,351.52197265625 13.661543930194,41.5498610949797,351.515701293945 13.6904875894724,41.5212077167902,152.000317522179 13.6868808701242,41.5189330623383,152.000485844794 13.6543382441949,41.5453153337699,351.516036987305 13.6578196815885,41.547624549303,351.995529174805</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>61</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>32</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">32</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6509240710333,41.5428149709325,351.995880126953 13.6509674756571,41.5428483317225,351.995864868164 13.6509825146438,41.5428598878638,351.995864868164 13.6543227693011,41.5453050677721,351.522232055664 13.6543382441949,41.5453153337699,351.516036987305 13.6868808701242,41.5189330623383,152.000485844794 13.6835884321826,41.516403572439,152.000649488531 13.647761387557,41.5402604837647,351.516357421875 13.6509240710333,41.5428149709325,351.995880126953</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>62</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>33</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">33</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6446904394575,41.537520640307,351.996170043945 13.6447292161897,41.5375569804747,351.996170043945 13.6447425542407,41.5375694802978,351.996170043945 13.6477472979302,41.5402491008554,351.522674560547 13.647761387557,41.5402604837647,351.516357421875 13.6835884321826,41.516403572439,152.000649488531 13.6806419843574,41.5136436362362,152.000806877331 13.641876684869,41.5347453471759,351.516677856445 13.6446904394575,41.537520640307,351.996170043945</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>63</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>35</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">35</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6344411506797,41.5256855649995,351.996765136719 13.6344697480393,41.5257269164228,351.996765136719 13.6344795101319,41.5257410316923,351.996765136719 13.6367298432626,41.5288098498843,351.5234375 13.6367407548073,41.5288231333774,351.516937255859 13.6780698800861,41.5106798601313,152.000956495409 13.6758968685051,41.5075408100649,152.001096902066 13.6324029325606,41.5225509841138,351.517227172852 13.6344411506797,41.5256855649995,351.996765136719</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>64</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>41</td></tr>
+<tr><td>text</td><td>OLS_conica_003</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">41</SimpleData>
+				<SimpleData name="text">OLS_conica_003</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6242588440815,41.4845737352881,351.998001098633 13.6242520531012,41.4846200222654,351.998001098633 13.6242497791119,41.4846354859114,351.998001098633 13.6238516579249,41.4881267890815,351.524459838867 13.6238508980379,41.4881425589114,351.51823425293 13.6716040448836,41.4903176143707,152.001617241651 13.6721174492356,41.486800116971,152.001677941764 13.6248815332216,41.481116425161,351.518402099609 13.6242588440815,41.4845737352881,351.998001098633</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>65</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>59</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">59</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7574636749867,41.4258267658438,351.994934082031 13.7574066140685,41.425808464568,351.994934082031 13.7573877214691,41.4258024014101,351.994934082031 13.7530616833345,41.4245073703538,351.521820068359 13.7530416830768,41.4245022273509,351.515396118164 13.7364740168271,41.458245223511,152.000199179951 13.7408010221741,41.4596332119712,152.000026648228 13.7616817271422,41.4272734858925,351.515090942383 13.7574636749867,41.4258267658438,351.994934082031</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>66</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>58</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">58</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7486561262218,41.4233733886029,351.995269775391 13.748596698109,41.4233593158082,351.99528503418 13.7485768650597,41.4233546197868,351.995300292969 13.7441035628885,41.4223846838837,351.522277832031 13.7440829764496,41.4223810316823,351.515747070313 13.7319871577106,41.4571828003547,152.000369793503 13.7364740168271,41.458245223511,152.000199179951 13.7530416830768,41.4245022273509,351.515396118164 13.7486561262218,41.4233733886029,351.995269775391</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>67</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>53</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">53</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7022355829834,41.4212654377822,351.996841430664 13.7021740896119,41.4212741258894,351.996856689453 13.7021536026428,41.4212770203901,351.996856689453 13.697600767082,41.4220069414153,351.523788452148 13.6975802148932,41.422011042987,351.517242431641 13.7086953865087,41.4569974800714,152.001138101565 13.7133183426453,41.4563442478093,152.001000810415 13.7068102096189,41.420706835621,351.517013549805 13.7022355829834,41.4212654377822,351.996841430664</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>68</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>49</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">49</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6599616319718,41.4358611235876,351.997924804688 13.6599130694999,41.4358904310241,351.997924804688 13.6598969393331,41.4359001631062,351.997924804688 13.6563363295046,41.4381581808486,351.524810791016 13.6563208416046,41.4381690260847,351.518310546875 13.6880337727454,41.465089978426,152.001637638081 13.6917026554603,41.462875116139,152.001566091669 13.6636486888446,41.4337465029429,351.518112182617 13.6599616319718,41.4358611235876,351.997924804688</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>69</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>52</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">52</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6930998251068,41.4229041642365,351.997100830078 13.6930400541262,41.4229172788769,351.997116088867 13.6930203581379,41.4229215972182,351.997116088867 13.6885838923496,41.423983637163,351.523956298828 13.6885639952874,41.4239892260066,351.517471313477 13.704179674254,41.4579882772129,152.001264432212 13.7086953865087,41.4569974800714,152.001138101565 13.6975802148932,41.422011042987,351.517242431641 13.6930998251068,41.4229041642365,351.997100830078</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>70</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>54</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">54</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7115400653453,41.4203079041706,351.99658203125 13.7114777816567,41.4203120184134,351.99658203125 13.7114570199178,41.4203133877832,351.99658203125 13.7068311737056,41.4207042714154,351.5234375 13.7068102096189,41.420706835621,351.517013549805 13.7133183426453,41.4563442478093,152.001000810415 13.7180040901331,41.4560348538838,152.000853880716 13.7161653679472,41.4200891214748,351.516708374023 13.7115400653453,41.4203079041706,351.99658203125</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>71</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>57</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">57</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7395717050911,41.4215808025366,351.99560546875 13.739510802195,41.4215711886941,351.995620727539 13.739490580105,41.4215679998024,351.995620727539 13.7349126149771,41.4209323773368,351.522399902344 13.7348916314456,41.4209302601515,351.516067504883 13.7273835926635,41.4564561535066,152.000536845648 13.7319871577106,41.4571828003547,152.000369793503 13.7440829764496,41.4223810316823,351.515747070313 13.7395717050911,41.4215808025366,351.99560546875</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>72</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>51</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">51</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6842209621065,41.4252083191392,351.997360229492 13.6841633840648,41.4252257150749,351.997360229492 13.6841445295403,41.4252314091156,351.997360229492 13.6798671916239,41.4266153713992,351.524261474609 13.6798481316099,41.4266223871637,351.517776489258 13.6998146368504,41.4593071126928,152.001378585701 13.704179674254,41.4579882772129,152.001264432212 13.6885639952874,41.4239892260066,351.517471313477 13.6842209621065,41.4252083191392,351.997360229492</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>73</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>55</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">55</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7209242609744,41.420040692757,351.99626159668 13.7208618304358,41.4200401927161,351.99626159668 13.7208410477423,41.4200400295249,351.99626159668 13.7161865449121,41.4200881195878,351.522827148438 13.7161653679472,41.4200891214748,351.516708374023 13.7180040901331,41.4560348538838,152.000853880716 13.7227075818004,41.456072274241,152.00069872773 13.7255558865614,41.4201638356193,351.516418457031 13.7209242609744,41.420040692757,351.99626159668</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>74</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>60</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">60</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7659104568313,41.428917612332,351.994583129883 13.7658559232341,41.4288951437856,351.994598388672 13.7658377360382,41.4288876512379,351.994598388672 13.7617009354856,41.4272800723469,351.521575927734 13.7616817271422,41.4272734858925,351.515090942383 13.7408010221741,41.4596332119712,152.000026648228 13.7449265490867,41.4613334166049,151.999853859845 13.7699200993632,41.4306681881724,351.514739990234 13.7659104568313,41.428917612332,351.994583129883</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>75</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>46</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">46</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6756844557252,41.4281556854598,351.997573852539 13.6756293478216,41.4281772670032,351.997573852539 13.6756112138928,41.4281843681202,351.997573852539 13.6715343825377,41.429876884083,351.524291992188 13.6715163399522,41.4298852682786,351.517913818359 13.695642247643,41.460941295797,152.001479462721 13.6998146368504,41.4593071126928,152.001378585701 13.6798481316099,41.4266223871637,351.517776489258 13.6756844557252,41.4281556854598,351.997573852539</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>76</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>47</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,5,7</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">47</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,5,7</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6465342559621,41.4457253013417,351.998153686523 13.646494223666,41.4457611585831,351.998153686523 13.6464808752431,41.4457731105461,351.998168945313 13.6443781262543,41.4477524002967,351.655960083008 13.6840000685027,41.4681658067326,152.001702167559 13.68467090421,41.4675645735817,152.00169341336 13.6496032917781,41.4431103554851,351.51838684082 13.6465342559621,41.4457253013417,351.998153686523</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>77</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>48</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">48</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6529266594118,41.4405450835365,351.998031616211 13.6528819471484,41.4405779695556,351.998031616211 13.6528669336046,41.440589015474,351.998031616211 13.6496172879803,41.4430984372289,351.524810791016 13.6496032917781,41.4431103554851,351.51838684082 13.68467090421,41.4675645735817,152.00169341336 13.6880337727454,41.465089978426,152.001637638081 13.6563208416046,41.4381690260847,351.518310546875 13.6529266594118,41.4405450835365,351.998031616211</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>78</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>50</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">50</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6675721520954,41.4317179615738,351.997741699219 13.6675199285926,41.431743591714,351.997741699219 13.6675025762496,41.4317521104067,351.997741699219 13.6636655329719,41.4337368404663,351.524536132813 13.6636486888446,41.4337465029429,351.518112182617 13.6917026554603,41.462875116139,152.001566091669 13.695642247643,41.460941295797,152.001479462721 13.6715163399522,41.4298852682786,351.517913818359 13.6675721520954,41.4317179615738,351.997741699219</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>79</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>56</td></tr>
+<tr><td>text</td><td>OLS_conica_004</td></tr>
+<tr><td>PolIndex</td><td>4,6,8</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">56</SimpleData>
+				<SimpleData name="text">OLS_conica_004</SimpleData>
+				<SimpleData name="PolIndex">4,6,8</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7302980255866,41.4204663369229,351.995956420898 13.7302361803269,41.420461259583,351.995956420898 13.7302156901132,41.4204595763608,351.995956420898 13.7255770664989,41.4201643941426,351.523071289063 13.7255558865614,41.4201638356193,351.516418457031 13.7227075818004,41.456072274241,152.00069872773 13.7273835926635,41.4564561535066,152.000536845648 13.7348916314456,41.4209302601515,351.516067504883 13.7302980255866,41.4204663369229,351.995956420898</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>80</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>61</td></tr>
+<tr><td>text</td><td>OLS_conica_005</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">61</SimpleData>
+				<SimpleData name="text">OLS_conica_005</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.7601250297825,41.5107939930238,151.998244341812 13.7573230155424,41.5138778366255,151.9982671201 13.7548563088768,41.5161137945632,151.998297832673 13.794622660101,41.5365237606917,351.991271972656 13.7955036969306,41.5357246776482,351.991256713867 13.7983048392523,41.5326399162998,351.991226196289 13.8011057156791,41.5295550852782,351.9912109375 13.8017531338839,41.5286763724531,351.9912109375 13.7619876339686,41.508267961942,151.998239799752 13.7601250297825,41.5107939930238,151.998244341812</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+	<Placemark>
+		<name>81</name>
+		<styleUrl>#msn_style</styleUrl>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+<html><body><table border="1">
+<tr><th>Field Name</th><th>Field Value</th></tr>
+<tr><td>pk_uid</td><td>62</td></tr>
+<tr><td>text</td><td>OLS_conica_006</td></tr>
+<tr><td>PolIndex</td><td>1,3,4</td></tr>
+</table></body></html>
+]]></description>
+		<ExtendedData><SchemaData schemaUrl="#OLS_Aquino_15_35_adj">
+				<SimpleData name="pk_uid">62</SimpleData>
+				<SimpleData name="text">OLS_conica_006</SimpleData>
+				<SimpleData name="PolIndex">1,3,4</SimpleData>
+		</SchemaData></ExtendedData>
+<Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>13.6787285528503,41.4734821859005,152.001755658304 13.681532550713,41.4704002334192,152.001732880133 13.6840000685027,41.4681658067326,152.001702167559 13.6443102328274,41.4477173985452,351.998168945313 13.6434284868906,41.448515385056,351.998168945313 13.6406236268879,41.4515964185453,351.998199462891 13.6378185060197,41.4546773842634,351.99821472168 13.6371696490794,41.4555551275151,351.99821472168 13.6768637336513,41.4760068556547,152.001760200364 13.6787285528503,41.4734821859005,152.001755658304</coordinates></LinearRing></outerBoundaryIs></Polygon>	</Placemark>
+  </Folder>
+</Folder>
+</Document>
+</kml>
